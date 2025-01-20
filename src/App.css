@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Custom Scrollbar Rounded */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Default light mode track */
+    border-radius: 9999px; /* Fully corners */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db; /* Default light mode thumb */
+    border-radius: 9999px; /* Fully corners */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8; /* Hover effect for thumb */
+  }
+  
+  /* Dark Mode Scrollbar */
+  .dark .custom-scrollbar::-webkit-scrollbar-track {
+    background: #374151; /* Dark mode track */
+  }
+  
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #6b7280; /* Dark mode thumb */
+  }
+  
